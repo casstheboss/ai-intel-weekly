@@ -1,19 +1,20 @@
-<!-- BLAKE_BUILD: 2026-04-05T11:52:34.692243 -->
+<!--BLAKE_BUILD:2026-04-05T12:13:54.277712-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Intel Weekly — The AI News That Actually Matters</title>
-    <meta name="description" content="Stop drowning in AI hype. Get the 5-minute weekly briefing that separates signal from noise. Trusted by 12,000+ founders, engineers, and investors.">
-    <meta property="og:title" content="AI Intel Weekly — The AI News That Actually Matters">
-    <meta property="og:description" content="The 5-minute weekly briefing that separates AI signal from noise.">
+    <title>AI Intel Weekly — The AI Newsletter That Cuts Through the Noise</title>
+    <meta name="description" content="Get the 7 most important AI developments each week, analyzed for business impact. No hype, no fluff — just actionable intelligence in 5 minutes.">
+    <meta property="og:title" content="AI Intel Weekly — The AI Newsletter That Cuts Through the Noise">
+    <meta property="og:description" content="Get the 7 most important AI developments each week, analyzed for business impact. No hype, no fluff — just actionable intelligence in 5 minutes.">
     <meta property="og:type" content="website">
+    <meta property="og:image" content="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-        tailwindcss.config = {
+        tailwind.config = {
             theme: {
                 extend: {
                     colors: {
@@ -24,11 +25,7 @@
             }
         }
     </script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', system-ui, sans-serif; }
         .gradient-bg {
             background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #0f172a 100%);
         }
@@ -38,205 +35,329 @@
     </style>
 </head>
 <body class="bg-slate-950 text-white antialiased">
-    <header class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800/50">
-        <nav class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+    <nav class="fixed top-0 w-full z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
             <div class="flex items-center gap-2">
-                <div class="w-8 h-8 rounded-lg bg-brand flex items-center justify-center">
-                    <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-                    </svg>
-                </div>
+                <span class="text-2xl">🤖</span>
                 <span class="font-bold text-lg">AI Intel Weekly</span>
             </div>
-            <a href="#subscribe" class="hidden sm:inline-flex items-center px-4 py-2 bg-brand hover:bg-brandDark rounded-lg font-medium text-sm transition-colors">
+            <a href="#subscribe" class="hidden sm:inline-flex bg-brand hover:bg-brandDark text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">
                 Subscribe Free
             </a>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main>
-        <section class="gradient-bg pt-32 pb-20 sm:pt-40 sm:pb-28 px-4 sm:px-6">
-            <div class="max-w-4xl mx-auto text-center">
-                <div class="inline-flex items-center gap-2 px-3 py-1.5 bg-brand/10 border border-brand/20 rounded-full text-brand text-sm font-medium mb-6">
-                    <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                    Trusted by 12,000+ readers
-                </div>
-                <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-6">
-                    Stop Drowning in AI Hype.<br>
-                    <span class="text-brand">Get the Signal.</span>
-                </h1>
-                <p class="text-lg sm:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
-                    Every Sunday, get the 5-minute briefing that cuts through 100+ AI announcements to deliver the 5 that actually matter for your work.
-                </p>
-                <form action="https://formspree.io/f/REPLACE_ME" method="POST" class="flex flex-col sm:flex-row gap-3 max-w-lg mx-auto mb-8">
-                    <input 
-                        type="email" 
-                        name="email" 
-                        required 
-                        placeholder="Enter your email" 
-                        class="flex-1 px-4 py-3.5 bg-slate-900 border border-slate-700 rounded-lg text-white placeholder-slate-500 focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand"
-                    >
-                    <button type="submit" class="px-6 py-3.5 bg-brand hover:bg-brandDark rounded-lg font-semibold transition-colors whitespace-nowrap">
-                        Join Free →
-                    </button>
-                </form>
-                <p class="text-sm text-slate-500">Free forever. Unsubscribe anytime. No spam, ever.</p>
+    <section class="gradient-bg min-h-screen flex items-center pt-20">
+        <div class="max-w-6xl mx-auto px-4 py-20 text-center">
+            <div class="inline-flex items-center gap-2 bg-brand/10 border border-brand/30 rounded-full px-4 py-2 mb-8">
+                <span class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+                <span class="text-sm text-slate-300">Trusted by 12,000+ tech leaders</span>
             </div>
-        </section>
-
-        <section class="py-16 px-4 sm:px-6 border-y border-slate-800/50 bg-slate-900/30">
-            <div class="max-w-5xl mx-auto">
-                <p class="text-center text-slate-500 text-sm uppercase tracking-wider mb-8">Readers from</p>
-                <div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 opacity-60">
-                    <span class="text-xl font-bold text-slate-400">Google</span>
-                    <span class="text-xl font-bold text-slate-400">OpenAI</span>
-                    <span class="text-xl font-bold text-slate-400">Stripe</span>
-                    <span class="text-xl font-bold text-slate-400">a16z</span>
-                    <span class="text-xl font-bold text-slate-400">Meta</span>
-                    <span class="text-xl font-bold text-slate-400">Tesla</span>
+            
+            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight mb-6 max-w-4xl mx-auto">
+                Stop Drowning in AI News.<br>
+                <span class="text-brand">Start Making Decisions.</span>
+            </h1>
+            
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+                Every Sunday, get the 7 most important AI developments — analyzed for business impact. 5-minute read. Zero hype.
+            </p>
+            
+            <form action="https://formspree.io/f/REPLACE_ME" method="POST" class="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+                <input 
+                    type="email" 
+                    name="email" 
+                    required 
+                    placeholder="you@company.com" 
+                    class="flex-1 px-5 py-4 bg-slate-900 border border-slate-700 rounded-lg focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand text-white placeholder-slate-500"
+                >
+                <button 
+                    type="submit" 
+                    class="bg-brand hover:bg-brandDark text-white font-semibold px-8 py-4 rounded-lg transition-colors whitespace-nowrap"
+                >
+                    Get Intel →
+                </button>
+            </form>
+            
+            <p class="text-sm text-slate-500 mt-4">Free forever. Unsubscribe anytime. No spam.</p>
+            
+            <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto">
+                <div>
+                    <div class="text-3xl font-bold text-brand">12K+</div>
+                    <div class="text-sm text-slate-400">Subscribers</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-brand">52%</div>
+                    <div class="text-sm text-slate-400">Open Rate</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-brand">5 min</div>
+                    <div class="text-sm text-slate-400">Weekly Read</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold text-brand">147</div>
+                    <div class="text-sm text-slate-400">Issues Sent</div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="py-20 sm:py-28 px-4 sm:px-6">
-            <div class="max-w-6xl mx-auto">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">The AI News Problem</h2>
-                    <p class="text-slate-400 text-lg max-w-2xl mx-auto">
-                        Keeping up with AI shouldn't feel like a full-time job.
-                    </p>
+    <section class="py-24 bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">The AI Information Problem</h2>
+                <p class="text-xl text-slate-400 max-w-2xl mx-auto">You're smart enough to know AI matters. But staying current is a full-time job.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="card-gradient border border-slate-800 rounded-2xl p-8">
+                    <div class="text-4xl mb-4">📰</div>
+                    <h3 class="text-xl font-bold mb-3">500+ Articles/Week</h3>
+                    <p class="text-slate-400">AI news explodes daily. New models, tools, regulations, funding rounds — most of it noise, some of it critical.</p>
                 </div>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <div class="p-6 rounded-2xl border border-red-500/20 bg-red-500/5">
-                        <div class="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center mb-4">
-                            <svg class="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                
+                <div class="card-gradient border border-slate-800 rounded-2xl p-8">
+                    <div class="text-4xl mb-4">🎭</div>
+                    <h3 class="text-xl font-bold mb-3">Hype vs. Reality</h3>
+                    <p class="text-slate-400">Every AI announcement claims to be revolutionary. Without context, you can't tell game-changers from marketing.</p>
+                </div>
+                
+                <div class="card-gradient border border-slate-800 rounded-2xl p-8">
+                    <div class="text-4xl mb-4">⏰</div>
+                    <h3 class="text-xl font-bold mb-3">No Time to Research</h3>
+                    <p class="text-slate-400">You have a business to run. You need someone to do the reading, thinking, and filtering for you.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-950">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">Your Weekly AI Briefing</h2>
+                <p class="text-xl text-slate-400 max-w-2xl mx-auto">Curated by analysts who actually understand the technology — not just the headlines.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-8">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-brand/10 rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-2">Information Overload</h3>
-                        <p class="text-slate-400">200+ AI announcements per week. Most are noise. Finding signal takes hours you don't have.</p>
+                        <div>
+                            <h3 class="text-lg font-bold mb-1">7 Key Developments</h3>
+                            <p class="text-slate-400">We analyze 500+ sources to find the 7 things that actually matter for your work.</p>
+                        </div>
                     </div>
-                    <div class="p-6 rounded-2xl border border-red-500/20 bg-red-500/5">
-                        <div class="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center mb-4">
-                            <svg class="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-brand/10 rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-2">FOMO Anxiety</h3>
-                        <p class="text-slate-400">Worried you'll miss the next ChatGPT moment? That anxiety kills your focus and productivity.</p>
+                        <div>
+                            <h3 class="text-lg font-bold mb-1">Business Impact Analysis</h3>
+                            <p class="text-slate-400">Each story includes a "So What?" section explaining what it means for your industry.</p>
+                        </div>
                     </div>
-                    <div class="p-6 rounded-2xl border border-red-500/20 bg-red-500/5">
-                        <div class="w-12 h-12 rounded-xl bg-red-500/10 flex items-center justify-center mb-4">
-                            <svg class="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636"/>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-brand/10 rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4"></path>
                             </svg>
                         </div>
-                        <h3 class="text-xl font-semibold mb-2">Hype vs. Reality</h3>
-                        <p class="text-slate-400">Every launch is "revolutionary." Most sources are either clickbait or vendor-sponsored.</p>
+                        <div>
+                            <h3 class="text-lg font-bold mb-1">Tool of the Week</h3>
+                            <p class="text-slate-400">One new AI tool we've tested and can actually recommend — with honest pros and cons.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-12 h-12 bg-brand/10 rounded-lg flex items-center justify-center">
+                            <svg class="w-6 h-6 text-brand" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                            </svg>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-bold mb-1">Contrarian Take</h3>
+                            <p class="text-slate-400">One opinion most people are getting wrong — and why it matters.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative">
+                    <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-2xl">
+                        <div class="flex items-center gap-3 mb-4 pb-4 border-b border-slate-800">
+                            <div class="w-10 h-10 bg-brand rounded-lg flex items-center justify-center text-xl">🤖</div>
+                            <div>
+                                <div class="font-bold">AI Intel Weekly #147</div>
+                                <div class="text-sm text-slate-400">March 31, 2024</div>
+                            </div>
+                        </div>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-3">
+                                <span class="bg-red-500/20 text-red-400 text-xs font-bold px-2 py-1 rounded">URGENT</span>
+                                <p class="text-sm">Google's Gemini 2.0 Changes Everything About Multi-Modal AI</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="bg-yellow-500/20 text-yellow-400 text-xs font-bold px-2 py-1 rounded">WATCH</span>
+                                <p class="text-sm">EU AI Act Enforcement Begins: What US Companies Need to Know</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="bg-green-500/20 text-green-400 text-xs font-bold px-2 py-1 rounded">NEW</span>
+                                <p class="text-sm">Open-Source LLM Hits GPT-4 Quality at 1/10th the Cost</p>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <span class="bg-blue-500/20 text-blue-400 text-xs font-bold px-2 py-1 rounded">TOOL</span>
+                                <p class="text-sm">We Tested 12 AI Meeting Assistants So You Don't Have To</p>
+                            </div>
+                        </div>
+                        <div class="mt-6 pt-4 border-t border-slate-800 text-center">
+                            <span class="text-sm text-slate-500">📖 5 min read • Delivered every Sunday at 9am</span>
+                        </div>
+                    </div>
+                    <div class="absolute -z-10 top-4 left-4 right-4 bottom-4 bg-brand/20 rounded-2xl blur-xl"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-slate-900">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold mb-4">What Readers Say</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-950 border border-slate-800 rounded-2xl p-8">
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                    </div>
+                    <p class="text-slate-300 mb-6">"Finally, an AI newsletter that doesn't treat me like an idiot or try to sell me on the apocalypse. Actionable insights I actually use."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-brand to-purple-600"></div>
+                        <div>
+                            <div class="font-semibold">Sarah Chen</div>
+                            <div class="text-sm text-slate-400">VP Product, Series B Startup</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-950 border border-slate-800 rounded-2xl p-8">
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                    </div>
+                    <p class="text-slate-300 mb-6">"I used to spend 3 hours a week trying to stay current. Now I spend 5 minutes on Sunday morning and I'm better informed than ever."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-green-500 to-teal-600"></div>
+                        <div>
+                            <div class="font-semibold">Marcus Rodriguez</div>
+                            <div class="text-sm text-slate-400">CTO, Enterprise SaaS</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-slate-950 border border-slate-800 rounded-2xl p-8">
+                    <div class="flex gap-1 mb-4">
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                        <span class="text-yellow-400">★</span>
+                    </div>
+                    <p class="text-slate-300 mb-6">"The 'So What?' sections are gold. Every development is explained in terms of business impact. This is how all tech journalism should work."</p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-red-600"></div>
+                        <div>
+                            <div class="font-semibold">Jennifer Walsh</div>
+                            <div class="text-sm text-slate-400">Managing Director, VC Fund</div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+            
+            <div class="mt-12 flex flex-wrap justify-center gap-8 items-center opacity-50">
+                <span class="text-xl font-bold">Readers from:</span>
+                <span class="text-lg">Google</span>
+                <span class="text-lg">Microsoft</span>
+                <span class="text-lg">Stripe</span>
+                <span class="text-lg">a16z</span>
+                <span class="text-lg">McKinsey</span>
+            </div>
+        </div>
+    </section>
 
-        <section class="py-20 sm:py-28 px-4 sm:px-6 bg-slate-900/50">
-            <div class="max-w-6xl mx-auto">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">What You Get Every Sunday</h2>
-                    <p class="text-slate-400 text-lg max-w-2xl mx-auto">
-                        5 minutes. 5 stories. Zero fluff. Here's the format:
-                    </p>
+    <section id="subscribe" class="py-24 gradient-bg">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-4">Join 12,000+ Tech Leaders</h2>
+            <p class="text-xl text-slate-400 mb-10">Get the AI intelligence that matters. Every Sunday. Free forever.</p>
+            
+            <form action="https://formspree.io/f/REPLACE_ME" method="POST" class="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+                <input 
+                    type="email" 
+                    name="email" 
+                    required 
+                    placeholder="you@company.com" 
+                    class="flex-1 px-5 py-4 bg-slate-900 border border-slate-700 rounded-lg focus:outline-none focus:border-brand focus:ring-1 focus:ring-brand text-white placeholder-slate-500"
+                >
+                <button 
+                    type="submit" 
+                    class="bg-brand hover:bg-brandDark text-white font-semibold px-8 py-4 rounded-lg transition-colors whitespace-nowrap"
+                >
+                    Subscribe Free →
+                </button>
+            </form>
+            
+            <div class="mt-8 flex flex-wrap justify-center gap-6 text-sm text-slate-400">
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span>Free forever</span>
                 </div>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="card-gradient p-8 rounded-2xl border border-slate-800">
-                        <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-brand/20 flex items-center justify-center flex-shrink-0">
-                                <span class="text-brand font-bold">1</span>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold mb-2">The Big Story</h3>
-                                <p class="text-slate-400">The most important AI development of the week, explained in 60 seconds. What happened, why it matters, what to do about it.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-gradient p-8 rounded-2xl border border-slate-800">
-                        <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-brand/20 flex items-center justify-center flex-shrink-0">
-                                <span class="text-brand font-bold">2</span>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold mb-2">Quick Hits</h3>
-                                <p class="text-slate-400">4 more stories worth knowing, condensed to one paragraph each. Links if you want to go deeper.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-gradient p-8 rounded-2xl border border-slate-800">
-                        <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-brand/20 flex items-center justify-center flex-shrink-0">
-                                <span class="text-brand font-bold">3</span>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold mb-2">Tool of the Week</h3>
-                                <p class="text-slate-400">One AI tool we actually tested and found useful. Not sponsored. No affiliate links. Just honest reviews.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-gradient p-8 rounded-2xl border border-slate-800">
-                        <div class="flex items-start gap-4">
-                            <div class="w-10 h-10 rounded-lg bg-brand/20 flex items-center justify-center flex-shrink-0">
-                                <span class="text-brand font-bold">4</span>
-                            </div>
-                            <div>
-                                <h3 class="text-xl font-semibold mb-2">The "So What?"</h3>
-                                <p class="text-slate-400">Our take on what this week's news means for builders, investors, and anyone building with AI.</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span>No spam</span>
+                </div>
+                <div class="flex items-center gap-2">
+                    <svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    <span>Unsubscribe anytime</span>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="py-20 sm:py-28 px-4 sm:px-6">
-            <div class="max-w-6xl mx-auto">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl sm:text-4xl font-bold mb-4">What Readers Say</h2>
+    <footer class="bg-slate-950 border-t border-slate-800 py-12">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="flex items-center gap-2">
+                    <span class="text-2xl">🤖</span>
+                    <span class="font-bold text-lg">AI Intel Weekly</span>
                 </div>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/50">
-                        <div class="flex items-center gap-1 mb-4">
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                        </div>
-                        <p class="text-slate-300 mb-4">"Finally unsubscribed from 6 other AI newsletters. This is the only one I need."</p>
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-full bg-gradient-to-br from-brand to-purple-500"></div>
-                            <div>
-                                <p class="font-medium text-sm">Sarah Chen</p>
-                                <p class="text-slate-500 text-sm">Product Lead, Stripe</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/50">
-                        <div class="flex items-center gap-1 mb-4">
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                        </div>
-                        <p class="text-slate-300 mb-4">"The 'So What?' section alone is worth subscribing. Saves me hours of thinking through implications."</p>
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-full bg-gradient-to-br from-green-400 to-cyan-500"></div>
-                            <div>
-                                <p class="font-medium text-sm">Marcus Williams</p>
-                                <p class="text-slate-500 text-sm">Partner, a16z</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="p-6 rounded-2xl border border-slate-800 bg-slate-900/50">
-                        <div class="flex items-center gap-1 mb-4">
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
-                            <svg class="w-5 h-5 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197
+                <p class="text-slate-400 text-sm">© 2024 AI Intel Weekly. All rights reserved.</p>
+                <div class="flex gap-6 text-sm text-slate-400">
+                    <a href="#" class="hover:text-white transition-colors">Privacy</a>
+                    <a href="#" class="hover:text-white transition-colors">Terms</a>
+                    <a href="#" class="hover:text-white transition-colors">Archive</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
